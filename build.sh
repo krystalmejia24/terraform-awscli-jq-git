@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO="giuliocalzo/terraform-awscli"
+REPO="flavioribeiro/terraform-awscli-jq-git"
 VERSION=${1:-latest}
 
 docker build -t ${REPO}:${VERSION} .
